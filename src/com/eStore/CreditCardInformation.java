@@ -5,7 +5,7 @@ import java.time.YearMonth;
 public class CreditCardInformation {
     private YearMonth cardExpirationYearMonth;
     private String creditCardNumber;
-    private String cardCvv;
+    private byte cardCvv;
     private CardType cardType;
     private String nameOnCard;
 
@@ -25,11 +25,11 @@ public class CreditCardInformation {
         this.creditCardNumber = creditCardNumber;
     }
 
-    public String getCardCvv() {
+    public byte getCardCvv() {
         return cardCvv;
     }
 
-    public void setCardCvv(String cardCvv) {
+    public void setCardCvv(byte cardCvv) {
         this.cardCvv = cardCvv;
     }
 
